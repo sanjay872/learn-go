@@ -48,3 +48,11 @@ var variable_name [size][size]data_type
 
 Accessed by index
 
+# slices
+
+Dynamic arrays.
+
+
+# Maps
+
+Data Structure for keys and values.

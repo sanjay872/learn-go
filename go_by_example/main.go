@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Slices()
+	examples.Maps()
 }

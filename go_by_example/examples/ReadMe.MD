@@ -56,3 +56,80 @@ Dynamic arrays.
 # Maps
 
 Data Structure for keys and values.
+
+# Functions
+
+- args variable_name datatype
+
+```go
+func Add(a int, b int) int{
+    return a + b
+}
+```
+
+- multiple return value
+
+```go
+func vals() (int,int){
+    return 3,7;
+}
+
+func main(){
+    a, b := vals();
+}
+```
+- variadic function, n number args
+
+```go
+func sum(nums ...int){
+    total:=0
+    for _,num :=range nums{
+        total+=num
+    }
+    fmt.Println(total)
+}
+
+func main(){
+    sum(1,2,3,4);
+    sum(1,3);
+
+    nums :=[]int{1,2,3,4};
+    sum(nums...);
+}
+```
+
+# Closures
+
+Closures are anonymous functions.
+
+So, we can create a function with in a function and also we can return the function.
+
+```go
+func intSeq() func(){
+    i:=0;
+
+    return func(){
+        i+=1;
+        return i;
+    }
+}
+
+func main(){
+    nextInt :=intSeq()
+
+    fmt.Println(nextInt())
+    fmt.Println(nextInt())
+    fmt.Println(nextInt())
+
+    newNextInt :=intSeq()
+    fmt.Println(newNextInt())
+}
+```
+
+# Recursion
+
+Function calling itself.
+
+# Range function
+
+To traverse through array, string, map.

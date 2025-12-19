@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Maps()
+	examples.Range()
 }

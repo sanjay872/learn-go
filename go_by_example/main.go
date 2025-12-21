@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Range()
+	examples.Pointers()
 }

@@ -133,3 +133,12 @@ Function calling itself.
 # Range function
 
 To traverse through array, string, map.
+
+# Pointers
+
+Reference of addresses
+
+# Strings, Bytes and Runes
+
+Best reading on Characters, https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+

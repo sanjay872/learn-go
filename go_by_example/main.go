@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Interfaces()
+	examples.StructEmbedding()
 }

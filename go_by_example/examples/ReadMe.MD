@@ -174,3 +174,7 @@ Also, there are two ways to check types, one is type assertion and other one is 
 Go does't have direct support for enum.
 
 But, we can make them by using the go language idioms.
+
+# Struct Embeddings
+
+We can put one embedding within another

@@ -143,3 +143,34 @@ Reference of addresses
 Best reading on Characters, https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 
 Refer notion notes
+
+# Struct
+
+For creating custom types.
+
+```go
+
+type Person struct{
+    name string
+    age int
+}
+
+```
+
+# Methods with Struct
+
+we create methods for structs.
+
+We can also copy the method call to different variable and still works because GO handles the converation b/w values and pointers.
+
+# Interface
+
+We can a create a interface and we can make the function to be overrided by struct methods.
+
+Also, there are two ways to check types, one is type assertion and other one is type switch.
+
+# Enum
+
+Go does't have direct support for enum.
+
+But, we can make them by using the go language idioms.

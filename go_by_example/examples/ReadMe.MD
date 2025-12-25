@@ -178,3 +178,8 @@ But, we can make them by using the go language idioms.
 # Struct Embeddings
 
 We can put one embedding within another
+
+# Generics
+
+To make a function that can accepts any data type and return corresponding data type.
+

@@ -184,3 +184,15 @@ We can put one embedding within another
 To make a function that can accepts any data type and return corresponding data type.
 
 Refer notion for more.
+
+# Iterators
+
+Iterators are push based methods, they give back value only if asked and they gets terminated when the consumer can't yield any more value.
+
+# Error
+
+Error are created by errors library and we can also check what error it is and do action based on that.
+
+# Custom Error
+
+We can create custom error with custom struct.

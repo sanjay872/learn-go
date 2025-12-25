@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Generic()
+	examples.CustomError()
 }

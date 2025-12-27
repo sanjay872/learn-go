@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.CustomError()
+	examples.Channel()
 }

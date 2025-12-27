@@ -196,3 +196,13 @@ Error are created by errors library and we can also check what error it is and d
 # Custom Error
 
 We can create custom error with custom struct.
+
+# Go Routine
+
+To run a thread concurrently.
+
+# Channel
+
+To sent message in one goroutine and receive message from different goroutine.
+
+we can also make a buffer in it, by adding number of message it a hold before it is consumed.

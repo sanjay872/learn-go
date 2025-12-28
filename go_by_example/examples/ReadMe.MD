@@ -206,3 +206,9 @@ To run a thread concurrently.
 To sent message in one goroutine and receive message from different goroutine.
 
 we can also make a buffer in it, by adding number of message it a hold before it is consumed.
+
+we create functions to decide the direction of channel.
+
+# Select
+
+select gives the ability to wait for both the channels to complete their job.

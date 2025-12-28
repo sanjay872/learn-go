@@ -1,9 +1,9 @@
 package main
 
 import (
-	"myapp/examples"
+	"myapp/src"
 )
 
 func main() {
-	examples.Select()
+	src.ArraysAndSlices()
 }

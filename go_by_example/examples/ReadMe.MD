@@ -212,3 +212,11 @@ we create functions to decide the direction of channel.
 # Select
 
 select gives the ability to wait for both the channels to complete their job.
+
+# Timeout
+
+By using select, channel and time, we can wait for certain time, for the request to completed.
+
+# Non Blocking Channels
+
+We can have multiple channels monitored on the select and also have default response if no data was received in any channel.

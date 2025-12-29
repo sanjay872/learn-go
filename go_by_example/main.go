@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.Select()
+	examples.NonBlockingChannel()
 }

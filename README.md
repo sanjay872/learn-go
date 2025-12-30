@@ -51,7 +51,8 @@ It serves as a personal learning log and a reference for core Go concepts, concu
 │   │   ├── switches.go
 │   │   ├── values.go
 │   │   └── variables.go
-│
+|   |   └── timeout.go
+│   |   └── non_blocking_channels.go
 ├── main.go
 ├── go.mod
 └── README.md

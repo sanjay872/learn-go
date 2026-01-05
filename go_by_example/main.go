@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.NonBlockingChannel()
+	examples.RangeOverChannel()
 }

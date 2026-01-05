@@ -220,3 +220,11 @@ By using select, channel and time, we can wait for certain time, for the request
 # Non Blocking Channels
 
 We can have multiple channels monitored on the select and also have default response if no data was received in any channel.
+
+# Closing Channels
+
+We can close the channel after completing the task.
+
+# Range over channel
+
+Even when the channel is closed, we can get the remaining value from the channel using range.

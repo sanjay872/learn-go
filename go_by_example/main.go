@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	examples.RangeOverChannel()
+	examples.TimerAndTicker()
 }

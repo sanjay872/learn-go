@@ -228,3 +228,9 @@ We can close the channel after completing the task.
 # Range over channel
 
 Even when the channel is closed, we can get the remaining value from the channel using range.
+
+# Timer And Ticker
+
+We can create timers, they are channels and can be used to make the execution wait for some time.
+
+Ticker is same as timer, but it will execute a certain interval of time.
